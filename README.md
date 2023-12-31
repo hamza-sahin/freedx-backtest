@@ -6,7 +6,7 @@ Our TradingView strategy template empowers users to effortlessly backtest any in
 
 The Trading Date Settings feature in our TradingView script allows users to refine their backtesting parameters by specifying trading dates. This feature enhances the accuracy of the backtest by aligning it with specific time frames and days, ensuring that the strategy is tested under relevant market conditions.
 
-![date-settings](https://github.com/hamza-sahin/freedx-backtest/images/date-settings.png?raw=true)
+![date-settings](https://github.com/hamza-sahin/freedx-backtest/blob/main/images/date-settings.png?raw=true)
 
 **Features:**
 
@@ -38,7 +38,7 @@ The Buy/Sell Trigger Settings feature is designed to provide users with flexibil
      - Set the top and bottom levels for the indicator.
      - The script triggers buy signals at the bottom level and sell signals at the top level.
 
-![trigger-single-line](https://github.com/hamza-sahin/freedx-backtest/images/trigger-single-line.png?raw=true)
+![trigger-single-line](https://github.com/hamza-sahin/freedx-backtest/blob/main/images/trigger-single-line.png?raw=true)
 
 2. **Two-Line Plotted Indicators:**
    - **Purpose:** Allows backtesting with two-line cross plot sources. Signals are generated based on the crossover of these lines.
@@ -47,7 +47,7 @@ The Buy/Sell Trigger Settings feature is designed to provide users with flexibil
      - The script triggers a 'LONG' signal when 'Source 1' crosses above 'Source 2'.
      - Conversely, a 'SHORT' signal is triggered when 'Source 2' crosses above 'Source 1'.
 
-![trigger-two-line](https://github.com/hamza-sahin/freedx-backtest/images/trigger-two-line.png?raw=true)
+![trigger-two-line](https://github.com/hamza-sahin/freedx-backtest/blob/main/images/trigger-two-line.png?raw=true)
 
 3. **Custom Signals:**
    - **Purpose:** This setting enables users to define their own criteria for LONG, SHORT, and CLOSE signals based on custom indicator outputs.
@@ -56,7 +56,7 @@ The Buy/Sell Trigger Settings feature is designed to provide users with flexibil
      - Define the output values that correspond to each signal type (e.g., “1” for LONG, “-1” for SHORT, and “0” for CLOSE).
      - The script will trigger signals according to these custom-defined values.
 
-![trigger-custom](https://github.com/hamza-sahin/freedx-backtest/images/trigger-custom.png?raw=true)
+![trigger-custom](https://github.com/hamza-sahin/freedx-backtest/blob/main/images/trigger-custom.png?raw=true)
 
 ## TP/SL Settings
 
@@ -64,7 +64,7 @@ The Buy/Sell Trigger Settings feature is designed to provide users with flexibil
 
 The TP/SL (Take Profit/Stop Loss) Settings feature is designed to give users control over their profit securing and risk mitigation strategies. This feature allows for setting custom TP and SL levels, which can be critical in managing trades effectively.
 
-![tpsl-settings](https://github.com/hamza-sahin/freedx-backtest/images/tpsl-settings.png?raw=true)
+![tpsl-settings](https://github.com/hamza-sahin/freedx-backtest/blob/main/images/tpsl-settings.png?raw=true)
 
 **Features:**
 
@@ -80,7 +80,7 @@ The TP/SL (Take Profit/Stop Loss) Settings feature is designed to give users con
 
 Strategy Settings provide a range of options to customize the trading strategy. These settings include leverage, drawdown limits, position direction changes, and more, allowing users to tailor their strategy to their risk tolerance and market view.
 
-![strategy-settings](https://github.com/hamza-sahin/freedx-backtest/images/strategy-settings.png?raw=true)
+![strategy-settings](https://github.com/hamza-sahin/freedx-backtest/blob/main/images/strategy-settings.png?raw=true)
 
 **Features:**
 
@@ -117,7 +117,7 @@ Strategy Settings provide a range of options to customize the trading strategy. 
 
 Advanced Strategy Settings offer sophisticated methods for managing Stop Loss (SL) and Take Profit (TP) using the Average True Range (ATR). These settings are ideal for traders who want to incorporate volatility into their exit strategies.
 
-![advanced-strategy-settings](https://github.com/hamza-sahin/freedx-backtest/images/advanced-strategy-settings.png?raw=true)
+![advanced-strategy-settings](https://github.com/hamza-sahin/freedx-backtest/blob/main/images/advanced-strategy-settings.png?raw=true)
 
 **Features:**
 
@@ -143,7 +143,7 @@ Advanced Strategy Settings offer sophisticated methods for managing Stop Loss (S
 
 Trend Filtering Settings are designed to align trading strategies with the prevailing market trend, enhancing the precision of trade entries and exits. These settings utilize moving averages for trend analysis and decision-making.
 
-![trend-filters](https://github.com/hamza-sahin/freedx-backtest/images/trend-filters.png?raw=true)
+![trend-filters](https://github.com/hamza-sahin/freedx-backtest/blob/main/images/trend-filters.png?raw=true)
 
 **Features:**
 
@@ -170,7 +170,7 @@ Trend Filtering Settings are designed to align trading strategies with the preva
 
 Automated Alert Settings are designed to integrate your TradingView script with external platforms like freedx.ai. These settings allow for enhanced strategy execution and management.
 
-![automated-alert-settings](https://github.com/hamza-sahin/freedx-backtest/images/automated-alert-settings.png?raw=true)
+![automated-alert-settings](https://github.com/hamza-sahin/freedx-backtest/blob/main/images/automated-alert-settings.png?raw=true)
 
 **Features:**
 
@@ -188,7 +188,7 @@ Automated Alert Settings are designed to integrate your TradingView script with 
 
 Debugging Settings are crucial for users who want to analyze and optimize their strategies. These settings provide tools for visualizing alerts on charts and accessing detailed data outputs.
 
-![debugging](https://github.com/hamza-sahin/freedx-backtest/images/debugging.png?raw=true)
+![debugging](https://github.com/hamza-sahin/freedx-backtest/blob/main/images/debugging.png?raw=true)
 
 **Features:**
 
