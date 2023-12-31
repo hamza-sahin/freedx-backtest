@@ -1,3 +1,5 @@
+## FreedX Backtest
+
 Our TradingView strategy template empowers users to effortlessly backtest any indicator, enhancing their trading strategy's effectiveness. This document details our template's features and how to utilize them effectively.
 
 ## Trading Date Settings
