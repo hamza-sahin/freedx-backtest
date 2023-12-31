@@ -6,39 +6,44 @@ Our TradingView strategy template empowers users to effortlessly backtest any in
 
 **Overview:**
 
-The Trading Date Settings feature in our TradingView script allows users to refine their backtesting parameters by specifying trading dates. This feature enhances the accuracy of the backtest by aligning it with specific time frames and days, ensuring that the strategy is tested under relevant market conditions.
+The Trading Date Settings feature in our TradingView script allows you to refine their backtesting parameters by specifying trading dates and hours. This feature enhances the accuracy of the backtest by aligning it with specific time frames and days, ensuring that the strategy is tested under relevant market conditions.
 
 ![date-settings](https://github.com/hamza-sahin/freedx-backtest/blob/main/images/date-settings.png?raw=true)
 
 **Features:**
 
 1. **Enable Trading Between Specific Dates:**
-   - **Purpose:** Allows users to limit the backtesting of their strategy to a specific date range.
+   - **Purpose:** Allows you to limit the backtesting of their strategy to a specific date range.
    - **How to Use:**
-     - Navigate to the 'Trading Date Settings' section.
-     - Input the start and end dates for the backtest period.
+     - Input the Start Date and End Date for the backtest period.
      - The script will execute the strategy only within this specified date range.
 
-2. **Enable Trading on Specified Days of the Week:**
-   - **Purpose:** Gives users the option to conduct backtesting on selected days of the week, tailoring the strategy to particular market behaviours that may occur on these days.
+2. **Enable Trading Between Specific Hours:**
+   - **Purpose:** Allows you to limit the backtesting of their strategy to a specific hour range.
    - **How to Use:**
-     - In the 'Trading Date Settings', select the days of the week for the backtest.
+     - Input the start and end hour for in Trading Session section.
+     - The script will execute the strategy only within this specified hour range.
+
+3. **Enable Trading on Specified Days of the Week:**
+   - **Purpose:** Gives you the option to conduct backtesting on selected days of the week, tailoring the strategy to particular market behaviours that may occur on these days.
+   - **How to Use:**
+     - Select the days of the week for the backtest.
      - The script will activate the trading strategy only on these chosen days.
 
 ## Buy/Sell Trigger Settings
 
 **Overview:**
 
-The Buy/Sell Trigger Settings feature is designed to provide users with flexibility in defining the conditions for buy and sell signals based on various indicator types. This customization is crucial for tailoring strategies to different trading styles and market conditions.
+The Buy/Sell Trigger Settings feature is designed to provide users with flexibility in defining the conditions for 'LONG' and 'SHORT' signals based on various indicator types. This customization is crucial for tailoring strategies to different trading styles and market conditions.
 
 **Features:**
 
 1. **Single-Line Plotted Indicators:**
-   - **Purpose:** Enables users to select a single-line plotted indicator as a source for backtesting. Users can define specific levels to trigger buy or sell signals.
+   - **Purpose:** Enables you to select a single-line plotted indicator as a source for backtesting. You can define specific levels to trigger 'LONG' or 'SHORT' signals.
    - **How to Use:**
-     - Choose a single-line plotted indicator as the source.
+     - Choose a Single-Line Plotted indicator as the source.
      - Set the top and bottom levels for the indicator.
-     - The script triggers buy signals at the bottom level and sell signals at the top level.
+     - The script triggers 'LONG' signals at the bottom level and 'SHORT' signals at the top level.
 
 ![trigger-single-line](https://github.com/hamza-sahin/freedx-backtest/blob/main/images/trigger-single-line.png?raw=true)
 
@@ -55,7 +60,7 @@ The Buy/Sell Trigger Settings feature is designed to provide users with flexibil
    - **Purpose:** This setting enables users to define their own criteria for LONG, SHORT, and CLOSE signals based on custom indicator outputs.
    - **How to Use:**
      - Select the custom source for your signals.
-     - Define the output values that correspond to each signal type (e.g., “1” for LONG, “-1” for SHORT, and “0” for CLOSE).
+     - Define the output values that correspond to each signal type (e.g., “1” for 'LONG', “-1” for SHORT, and “0” for CLOSE).
      - The script will trigger signals according to these custom-defined values.
 
 ![trigger-custom](https://github.com/hamza-sahin/freedx-backtest/blob/main/images/trigger-custom.png?raw=true)
@@ -95,7 +100,7 @@ Strategy Settings provide a range of options to customize the trading strategy. 
    - **Purpose:** Sets a maximum drawdown limit, automatically halting the strategy if this limit is reached, thereby controlling risk.
    - **How to Use:** Input the maximum drawdown limit (default: 100, min: 0, max: 100).
 
-3. **Enable Change Direction:**
+3. **Enable Reverse Position:**
    - **Purpose:** Automatically closes a current position and opens a new one in the opposite direction upon detecting a signal for a market trend change.
    - **Example:** If a LONG signal is received while in a SHORT position, the script will close the SHORT position and open a LONG position.
    - **How to Use:** Activate this feature in the Strategy Settings.
