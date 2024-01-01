@@ -1,6 +1,4 @@
-█ [b]FreedX Backtest[/b]
-
-Our TradingView strategy template empowers users to effortlessly backtest any indicator, enhancing their trading strategy's effectiveness. This document details our template's features and how to utilize them effectively.
+█ Our strategy template empowers TradingView users to effortlessly backtest any indicator, enhancing their trading strategy's effectiveness. In addition, users can create automated alerts for seemless connection to Exchanges. This document details our template's features and how to utilize them effectively.
 
 █ [b] Trading Date Settings [/b]
 
@@ -93,7 +91,7 @@ Strategy Settings provide a range of options to customize the trading strategy. 
 ⚙️ [b]Enable Leverage[/b]:
   🎯 Purpose: 
     → Allows users to apply leverage to their trades.
-  🎯 Caution: 
+  ☢️ Caution: 
     → High leverage can significantly increase the risk of liquidation.
     → High leverage and a high stop-loss price may override your fixed stoploss percentage, adjusting the stop-loss to the liquidation price.
   💡 How to Use: 
@@ -128,7 +126,7 @@ Strategy Settings provide a range of options to customize the trading strategy. 
 ⚙️ [b]Enable Trailing Stop:[/b]
   🎯 Purpose: 
     → Triggers a trailing stop order on the exchange instead of a standard stop market order.
-  🎯 Caution: 
+  ☢️ Caution: 
     → The backtesting of this feature on TradingView may not accurately reflect actual strategy performance due to discrepancies between TradingView and exchange mechanisms.
   💡 How to Use: 
     → Select 'Trailing Stop' in the Strategy Settings.
@@ -206,7 +204,7 @@ Automated Alert Settings are designed to integrate your TradingView script with 
     → Enable 'FreedX Connection' in the settings.
     → Enter your FreedX Strategy ID to link your specific strategy.
     → Optionally, activate 'Override Allocation Percentage' to bypass the preset allocation percentage in FreedX.
-  🎯 Caution:
+  ☢️ Caution:
     →  Overriding the allocation percentage may result in trade entry errors due to misalignment between entry cost and available balance.
 
 [image]https://www.tradingview.com/x/ksDPCoCn/[/image]
@@ -224,7 +222,7 @@ Debugging Settings are crucial for users who want to analyze and optimize their 
     → Allows users to visualize trading alerts directly on the chart, aiding in strategy analysis and refinement.
   💡 How to Use:
     → Activate 'Alert Plotting' to draw alerts on the chart.
-  🎯 Caution:
+  ☢️ Caution:
     → It is recommended to disable this feature when creating actual trading alerts, as it can cause latency in signal processing.
 
 ⚙️ [b]Enable Debugger Mode:[/b]
