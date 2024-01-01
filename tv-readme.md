@@ -1,4 +1,4 @@
-█ Our strategy template empowers TradingView users to effortlessly backtest any indicator, enhancing their trading strategy's effectiveness. In addition, users can create automated alerts for seemless connection to Exchanges. This document details our template's features and how to utilize them effectively.
+█ Our strategy template empowers TradingView users to effortlessly backtest any indicator, enhancing their trading strategy's effectiveness. In addition, users can create automated alerts and create seemless connection to FreedX. This document details our template's features and how to utilize them effectively.
 
 █ [b] Trading Date Settings [/b]
 
