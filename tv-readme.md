@@ -1,6 +1,6 @@
 █ Our strategy template empowers TradingView users to effortlessly backtest any indicator, enhancing their trading strategy's effectiveness. In addition, users can create automated alerts and create seemless connection to FreedX. This document details our template's features and how to utilize them effectively.
 
-█ [b] Trading Date Settings [/b]
+█ [b]TRADE DATE SETTINGS[/b]
 
 The Trading Date Settings feature in our TradingView script allows you to refine their backtesting parameters by specifying trading dates and hours. This feature enhances the accuracy of the backtest by aligning it with specific time frames and days, ensuring that the strategy is tested under relevant market conditions.
 
@@ -29,11 +29,9 @@ The Trading Date Settings feature in our TradingView script allows you to refine
     → Select the days of the week for the backtest.
     → The script will activate the trading strategy only on these chosen days.
 
-█ [b]Buy/Sell Trigger Settings[/b]
+█ [b]BUY/SELL TRIGGER SETTINGS[/b]
 
 The Buy/Sell Trigger Settings feature is designed to provide users with flexibility in defining the conditions for 'LONG' and 'SHORT' signals based on various indicator types. This customization is crucial for tailoring strategies to different trading styles and market conditions.
-
-[image]https://www.tradingview.com/x/QKZgdOh4/[/image]
 
 [b]Features:[/b]
 
@@ -65,7 +63,7 @@ The Buy/Sell Trigger Settings feature is designed to provide users with flexibil
     → Define the output values that correspond to each signal type (e.g., “1” for 'LONG', “-1” for SHORT, and “0” for CLOSE).
     → The script will trigger signals according to these custom-defined values.
 
-█ [b]TP/SL Settings[/b]
+█ [b]TP/SL SETTINGS[/b]
 
 The TP/SL (Take Profit/Stop Loss) Settings feature is designed to give users control over their profit securing and risk mitigation strategies. This feature allows for setting custom TP and SL levels, which can be critical in managing trades effectively.
 
@@ -80,7 +78,7 @@ The TP/SL (Take Profit/Stop Loss) Settings feature is designed to give users con
 
 [image]https://www.tradingview.com/x/yKwTRXCY/[/image]
 
-█ [b]Strategy Settings[/b]
+█ [b]STRATEGY SETTINGS[/b]
 
 Strategy Settings provide a range of options to customize the trading strategy. These settings include leverage, drawdown limits, position direction changes, and more, allowing users to tailor their strategy to their risk tolerance and market view.
 
@@ -131,7 +129,7 @@ Strategy Settings provide a range of options to customize the trading strategy. 
   💡 How to Use: 
     → Select 'Trailing Stop' in the Strategy Settings.
 
-█ [b]Advanced Strategy Settings[/b]
+█ [b]ADVANCED STRATEGY SETTINGS[/b]
 
 Advanced Strategy Settings offer sophisticated methods for managing Stop Loss (SL) and Take Profit (TP) using the Average True Range (ATR). These settings are ideal for traders who want to incorporate volatility into their exit strategies.
 
@@ -160,7 +158,7 @@ Advanced Strategy Settings offer sophisticated methods for managing Stop Loss (S
     → Adjust the ATR SL Multiplier to determine the stop loss distance.
     → Modify the ATR TP Multiplier for setting the take profit distance.
 
-█ [b]Trend Filtering Settings[/b]
+█ [b]TREND FILTERING SETTINGS[/b]
 
 Trend Filtering Settings are designed to align trading strategies with the prevailing market trend, enhancing the precision of trade entries and exits. These settings utilize moving averages for trend analysis and decision-making.
 
@@ -191,7 +189,7 @@ Trend Filtering Settings are designed to align trading strategies with the preva
   💡 How to Use: 
     → Activate 'Trend Drawing On Chart' to see the trend filter overlaid on the trading chart.
 
-█ [b]Automated Alert Settings[/b]
+█ [b]AUTOMATED ALERT SETTINGS[/b]
 
 Automated Alert Settings are designed to integrate your TradingView script with external platforms like freedx.ai. These settings allow for enhanced strategy execution and management.
 
@@ -209,7 +207,7 @@ Automated Alert Settings are designed to integrate your TradingView script with 
 
 [image]https://www.tradingview.com/x/ksDPCoCn/[/image]
 
-█ [b]Debugging Settings[/b]
+█ [b]DEBUGGING SETTINGS[/b]
 
 Debugging Settings are crucial for users who want to analyze and optimize their strategies. These settings provide tools for visualizing alerts on charts and accessing detailed data outputs.
 
@@ -231,7 +229,7 @@ Debugging Settings are crucial for users who want to analyze and optimize their 
   💡 How to Use:
     → Turn on 'Debugger Mode' to access real-time data and metrics relevant to your strategy.
 
-█ [b]Additional Settings[/b]
+█ [b]ADDITIONAL SETTINGS[/b]
 
 [image]https://www.tradingview.com/x/m83En9VN/[/image]
 
