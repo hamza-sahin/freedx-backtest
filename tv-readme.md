@@ -82,7 +82,7 @@ The TP/SL (Take Profit/Stop Loss) Settings feature is designed to give users con
 
 Strategy Settings provide a range of options to customize the trading strategy. These settings include leverage, drawdown limits, position direction changes, and more, allowing users to tailor their strategy to their risk tolerance and market view.
 
-[image]https://www.tradingview.com/x/1UdPRfGZ/[/image]
+[image]https://www.tradingview.com/x/Ml6Qk4bP/[/image]
 
 [b]Features:[/b]
 
