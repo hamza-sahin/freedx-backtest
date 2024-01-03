@@ -1,4 +1,4 @@
-█ Our strategy template empowers TradingView users to effortlessly backtest any indicator, enhancing their trading strategy's effectiveness. In addition, users can create automated alerts and create seemless connection to FreedX. This document details our template's features and how to utilize them effectively.
+█ Our strategy template empowers TradingView users to effortlessly backtest any indicator, enhancing their trading strategy's effectiveness. In addition, users can create automated webhook alerts from the template. This document details our template's features and how to utilize them effectively.
 
 █ [b]TRADE DATE SETTINGS[/b]
 
@@ -191,21 +191,21 @@ Trend Filtering Settings are designed to align trading strategies with the preva
 
 █ [b]AUTOMATED ALERT SETTINGS[/b]
 
-Automated Alert Settings are designed to integrate your TradingView script with external platforms like freedx.ai. These settings allow for enhanced strategy execution and management.
+Automated Alert Settings are designed to integrate your TradingView script with webhook alerts. These settings allow for enhanced strategy execution and management.
 
 [b]Features:[/b]
 
-[b]Enable FreedX Connection:[/b]
+[b]Enable Webhook Alerts:[/b]
   🎯 Purpose:
-    →  Establishes a connection between the TradingView script and the freedx.ai platform.
+    →  Trigger BUY, SELL, CHANGE_DIRECTION or MOVE_STOP_LOSS .
   💡 How to Use:
-    → Enable 'FreedX Connection' in the settings.
-    → Enter your FreedX Strategy ID to link your specific strategy.
-    → Optionally, activate 'Override Allocation Percentage' to bypass the preset allocation percentage in FreedX.
+    → Enable 'Webhook Alerts' in the settings.
+    → Enter your Strategy ID.
+    → Optionally, activate 'Override Allocation Percentage' to bypass the preset allocation percentage.
   ☢️ Caution:
     →  Overriding the allocation percentage may result in trade entry errors due to misalignment between entry cost and available balance.
 
-[image]https://www.tradingview.com/x/ksDPCoCn/[/image]
+[image]https://www.tradingview.com/x/kfwRY5kd/[/image]
 
 █ [b]DEBUGGING SETTINGS[/b]
 
